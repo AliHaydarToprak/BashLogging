@@ -4,7 +4,7 @@
 
 ### Ignore space Close
 
-	export HISTCONTROL=""
+	sudo export HISTCONTROL=""
 
 ### Edit /etc/bashrc
 
@@ -43,7 +43,7 @@ Note ==> @@ : tcp | @ : udp
 
 ### Ignore space Close
 
-	export HISTCONTROL=""
+	sudo export HISTCONTROL=""
 
 ### Edit /etc/bash.bashrc
 
