@@ -10,7 +10,7 @@
 
 	sudo -e /etc/bashrc    				//add the following line to the end of the file
 	
-	export PROMPT_COMMAND='command_status=$?; command_path=$PWD; last_command=$(history -a >(tee -a $HISTFILE)); if [[ -n "$last_command" ]]; then logger -p 	 local6.debug "$(whoami) [$$]: Path = $command_path commandLine = $(history 1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) commandStatus=$command_status"; history -c; 	 history -r; fi'
+	export PROMPT_COMMAND='command_status=$?; command_path=$PWD; last_command=$(history -a >(tee -a $HISTFILE)); if [[ -n "$last_command" ]]; then logger -p local6.debug "$(whoami) [$$]: Path = $command_path commandLine = $(history 1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) commandStatus=$command_status"; history -c; history -r; fi''
 
 
 ### Run the following to load the changes
@@ -50,7 +50,7 @@ Note ==> @@ : tcp | @ : udp
 
 	sudo -e /etc/bashrc    				//add the following line to the end of the file
 	
-	export PROMPT_COMMAND='command_status=$?; command_path=$PWD; last_command=$(history -a >(tee -a $HISTFILE)); if [[ -n "$last_command" ]]; then logger -p 	 local6.debug "$(whoami) [$$]: Path = $command_path commandLine = $(history 1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) commandStatus=$command_status"; history -c; 	 history -r; fi'
+	export PROMPT_COMMAND='command_status=$?; command_path=$PWD; last_command=$(history -a >(tee -a $HISTFILE)); if [[ -n "$last_command" ]]; then logger -p local6.debug "$(whoami) [$$]: Path = $command_path commandLine = $(history 1 | sed "s/^[ ]*[0-9]\+[ ]*//" ) commandStatus=$command_status"; history -c; history -r; fi'
 
 ### Run the following to load the changes
 
