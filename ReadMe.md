@@ -1,4 +1,6 @@
-# Bash Logging for Centos
+# Bash Logging for Centos or Ubuntu
+
+## 1 Centos
 
 
 ### Edit /etc/bashrc
@@ -34,7 +36,7 @@
 Note ==> @@ : tcp | @ : udp 
 
 
-# Bash Logging for Ubuntu
+## 1 Ubuntu
 
 ### Edit /etc/bash.bashrc
 
