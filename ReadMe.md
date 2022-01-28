@@ -2,6 +2,9 @@
 
 ## 1-) Centos
 
+### Ignore space Close
+
+	export HISTCONTROL=""
 
 ### Edit /etc/bashrc
 
@@ -37,6 +40,10 @@ Note ==> @@ : tcp | @ : udp
 
 
 ## 2-) Ubuntu
+
+### Ignore space Close
+
+	export HISTCONTROL=""
 
 ### Edit /etc/bash.bashrc
 
